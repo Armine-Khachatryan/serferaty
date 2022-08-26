@@ -1,0 +1,33 @@
+.backImgDiv{
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    position: relative;
+}
+.backImgDiv::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.backImgDiv > *{
+    z-index: 1;
+}
+
+.grabTitle{
+    font-family: TT_Commons-Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+

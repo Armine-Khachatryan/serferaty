@@ -1,0 +1,26 @@
+.purpleBigButton{
+    background: linear-gradient(141.18deg, #793FF9 17.3%, #681BA6 66.93%);
+    font-family:  TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color:#FFFFFF;
+    max-width: 550px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    margin-top: 24px;
+}
+
+.purpleBigButton:disabled{
+    cursor: not-allowed;
+    background: rgba(54, 32, 102, 1);
+    color: #908C9D;
+}

@@ -1,0 +1,27 @@
+.coverHomeImg{
+    position: relative;
+    margin-bottom: 400px;
+}
+
+
+.coverHomeImg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.coverHomeImg > *{
+    z-index: 1;
+}
+
+.sliderDiv{
+    position: absolute;
+    bottom: -260px;
+    z-index: 1;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+.purpleEmptyButton {
+    color: #FFFFFF;
+    font-family:  TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    max-width: 550px;
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 8px;
+    background: rgba(34, 25, 60, 1);
+    border: 1px solid rgba(121, 63, 249, 1);
+    margin-bottom: 200px;
+}
+
+.purpleEmptyButton:disabled{
+    cursor: not-allowed;
+}

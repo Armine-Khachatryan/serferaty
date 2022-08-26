@@ -1,0 +1,14 @@
+.buttonsDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginError{
+    margin-top: 8px;
+    color: rgba(249, 63, 63, 1);
+    font-family:  TT_Commons-Regular, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+

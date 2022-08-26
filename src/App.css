@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #22193C;
 }
 
-.App-header {
-  background-color: #282c34;
+.entireDiv{
+  width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.loginRegisterDiv{
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoAndSignInUp{
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-top: 100px;
 }
+
+.logoImg{
+  width: 266px;
+  height: 133px;
+}
+
+.signInUp{
+  font-family:  TT_Commons-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-left: 100px;
+}
+
+.lineDiv{
+  background: linear-gradient(141.18deg, #793FF9 17.3%, #681BA6 66.93%);
+  height: 2px;
+  width: 550px;
+  margin-bottom: 48px;
+}
+
+.slick-slide {
+  margin: -5px 4px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -8px;
+}
+
+.container{
+  max-width: 1680px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.main{
+  height: 100vh;  /*for footer*/
+}
+
+
+
+/*.slick-dots li button:before{*/
+/*  background-color: white !important;*/
+/*}*/
+
+/*.slick-dots li.slick-active button:before {*/
+/*  background-color: white !important*/
+/*}*/
+
+/*.slick-arrow slick-next{*/
+/*  display: none !important;*/
+/*}*/
+
+
+@font-face {
+  font-family: TT_Commons-Regular;
+  src: url(app/assets/fonts/TT-commons/TT_Commons_Regular.otf);
+}
+
+
+@font-face {
+  font-family: TT_Commons-Medium;
+  src: url(app/assets/fonts/TT-commons/TT_Commons_Medium.otf);
+}
+
+@font-face {
+  font-family: TT_Commons-Bold;
+  src: url(app/assets/fonts/TT-commons/TT_Commons_Bold.otf);
+}
+
+
+@font-face {
+  font-family: Space-Mission;
+  src: url(app/assets/fonts/Space-Mission/Space_Mission.otf);
+}
+

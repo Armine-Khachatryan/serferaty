@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.middle{
+    display: flex;
+}
+
+.middlePart{
+    margin-right: 64px;
+    font-family: TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.middlePart:last-child{
+    margin-right: 0;
+}
+
+.downVectorDiv{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.lastDiv{
+    display: flex;
+}
+
+.lastPart{
+    font-family: TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.lastPart:last-child{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.currencyIcon{
+    margin-left: 6px;
+}
+
+.justLine{
+    width: 2px;
+    height: 13px;
+    background-color:#FFFFFF;
+    margin-left: 6px;
+}
+

@@ -1,0 +1,83 @@
+.termsWhole{
+    width: 100%;
+    margin-bottom: 320px;
+}
+
+.termsTitle{
+    font-family: TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+    border-bottom: 3px solid rgba(121, 63, 249, 1);
+    max-width: 455px;
+    width: 100%;
+}
+
+.subTitle{
+    margin-top: 32px;
+    font-family: TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.textTerms{
+    margin-bottom: 16px;
+    font-family: TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #E4E4E4;
+}
+
+.textTerms:last-child{
+    margin-bottom: 32px;
+}
+
+.smallTexts{
+    font-family: TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #E4E4E4;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 610px;
+    height: 27px;
+    white-space: nowrap;
+    padding-left: 16px;
+    position: relative;
+}
+
+.smallTexts:before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left:0;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(141.18deg, #793FF9 17.3%, #681BA6 66.93%);
+    border-radius: 360px;
+}
+
+.smallTexts:last-child{
+    margin-bottom: 32px;
+}
+
+
+
+
+
+

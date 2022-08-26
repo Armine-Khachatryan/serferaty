@@ -1,0 +1,53 @@
+.letterImg{
+    width: 53px;
+    height: 43px;
+    margin-bottom: 27px;
+    display: flex;
+    align-self: center;
+}
+
+.verifyBigText{
+    font-family:  TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.verifySmallText{
+    max-width: 427px;
+    width: 100%;
+    margin: 4px auto 24px;
+    font-family:  TT_Commons-Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.resentButton{
+    max-width: 267px;
+    width: 100%;
+    background: linear-gradient(141.18deg, #793FF9 17.3%, #681BA6 66.93%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-family:  TT_Commons-Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
